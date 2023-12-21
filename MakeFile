@@ -1,0 +1,11 @@
+math: rotorMachine.o shejwal_ayushsunil_assn3.o
+        gcc -g -Wall rotorMachine.o shejwal_mainFile.o -o math -lm
+
+rotorMachine.o: rotorMachine.h
+        gcc -g -Wall -c rotorMachine.c -lm
+
+shejwal_ayushsunil_assn3.o: rotorMachine.h
+        gcc -g -Wall -c shejwal_mainFile.c
+
+clean: 
+        rm -v *.o math
