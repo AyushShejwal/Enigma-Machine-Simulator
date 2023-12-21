@@ -3,7 +3,9 @@ Enigma Machine Simulator: A C/C++ command-line utility that emulates a simplifie
 
 Files Included
 
-rotorMachine.h and rotorMachine.c: Files for rotor configuration and operations.
+rotorMachine.c: This file contains the actual implementation of the Enigma Machine. It includes functions responsible for the working of the enigma machine
+
+rotorMachine.h: This header file contains function prototypes and any necessary declarations used in rotorMachine.c. It acts as an interface defining the functions implemented in rotorMachine.c.
 
 config.rtr: Sample rotor configuration file.
 
